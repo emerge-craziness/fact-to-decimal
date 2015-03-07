@@ -1,7 +1,6 @@
 #ifndef METHODS_HPP
 #define METHODS_HPP
 
-#include <iostream>
 #include <string>
 
 class methods {
@@ -16,7 +15,7 @@ class methods {
             long long int f2d();
             /* Translates a number from the factorial numsys to the decimal */
 
-            int d2f();
+            std::string d2f();
             /* Vice versa:
              * It translates a number from the decimal numsys to the factorial */
 };

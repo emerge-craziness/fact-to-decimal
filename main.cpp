@@ -18,7 +18,7 @@ int main(int argc, char * argv[]) {
     if (argv[1][0] == '-') {
         switch (argv[1][1]) {
          case 'f':
-            f.d2f();
+            cout << f.d2f() << "\n";
             break;
          case 'd': 
             cout << f.f2d() << "\n";
